@@ -1,0 +1,5 @@
+name: Siteinfo
+type: module
+description: 'Extending Core Configuration to add new siteapikey'
+core: 8.x
+core_version_requirement: ^8 || ^9

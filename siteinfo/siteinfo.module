@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * @file
+ */
+
+/**
+ * Implements hook_form_system_site_information_settings_alter().
+ */
+function siteinfo_form_system_site_information_settings_alter(&$form, $form_state, $form_id) {
+
+  // Change form submit button text to 'Update Configuration'.
+  $form['actions']['submit']['#value'] = t('Update configuration');
+}
